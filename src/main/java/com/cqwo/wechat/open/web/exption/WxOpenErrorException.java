@@ -1,6 +1,6 @@
-package com.cqwo.wechat.open.exption;
+package com.cqwo.wechat.open.web.exption;
 
-import com.cqwo.wechat.open.domain.WxOpenError;
+import com.cqwo.wechat.open.web.domain.WxOpenError;
 
 /**
  * 微信异常

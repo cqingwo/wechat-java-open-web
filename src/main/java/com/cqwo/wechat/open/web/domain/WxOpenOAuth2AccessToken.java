@@ -1,7 +1,7 @@
-package com.cqwo.wechat.open.domain;
+package com.cqwo.wechat.open.web.domain;
 
 import com.alibaba.fastjson.JSON;
-import com.cqwo.wechat.open.exption.WxOpenErrorException;
+import com.cqwo.wechat.open.web.exption.WxOpenErrorException;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -65,6 +65,7 @@ public class WxOpenOAuth2AccessToken implements Serializable {
             } catch (Exception ex2) {
                 openError = new WxOpenError();
             }
+
 
             throw new WxOpenErrorException(openError, "accessToken获取失败");
         }

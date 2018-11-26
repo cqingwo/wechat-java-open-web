@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.cqwo.wechat.open</groupId>
-    <artifactId>weixin-java-open</artifactId>
+    <groupId>com.cqwo.wechat</groupId>
+    <artifactId>wechat-java-open-web</artifactId>
     <version>1.0</version>
 
     <properties>
@@ -41,6 +41,7 @@
             <groupId>org.slf4j</groupId>
             <artifactId>jcl-over-slf4j</artifactId>
         </dependency>
+
     </dependencies>
 
     <dependencyManagement>
@@ -85,7 +86,7 @@
 
 
     <build>
-        <finalName>wexin-java-open</finalName>
+        <finalName>wechat-java-open-web</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>

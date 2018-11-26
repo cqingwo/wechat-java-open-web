@@ -1,4 +1,4 @@
-package com.cqwo.wechat.open.utils;
+package com.cqwo.wechat.open.web.utils;
 
 
 import org.apache.commons.lang3.StringUtils;
@@ -6,6 +6,7 @@ import org.apache.commons.lang3.StringUtils;
 import java.nio.charset.StandardCharsets;
 
 public class URIUtil {
+
     private static final String ALLOWED_CHARS = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-_.!~*'()";
 
     public URIUtil() {
