@@ -9,6 +9,7 @@ import java.io.Serializable;
  * @author cqnews
  */
 @Data
+
 public class WxOpenError implements Serializable {
 
     private static final long serialVersionUID = 3768816519685938894L;

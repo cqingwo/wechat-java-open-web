@@ -8,8 +8,8 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 
-@Setter
-@Getter
+@Data
+@Builder
 @AllArgsConstructor
 @NoArgsConstructor
 @ToString

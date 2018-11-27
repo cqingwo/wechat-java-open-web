@@ -2,8 +2,12 @@ package com.cqwo.wechat.open.web.config;
 
 import com.cqwo.wechat.open.web.domain.WxOpenOAuth2AccessToken;
 import com.cqwo.wechat.open.web.exption.WxOpenExpiresTimeException;
+import lombok.Data;
+import lombok.Getter;
 
 import java.util.concurrent.locks.Lock;
+
+
 
 public interface WxOpenConfigStorage {
 
